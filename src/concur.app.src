@@ -1,0 +1,9 @@
+{application, concur, [
+  {description, "Concurrent Structures"},
+  {vsn, "0.1.0"},
+  {applications, [
+    kernel,
+    stdlib,
+    gproc
+  ]}
+]}.
